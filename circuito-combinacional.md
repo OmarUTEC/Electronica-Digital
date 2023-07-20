@@ -31,7 +31,7 @@ Independientemente de qué familia lógica se utilice, las puertas lógicas se r
 
 Los circuitos digitales se suelen fabricar integrados en chips de silicio. Se clasifican según sea la escala de integración (Scale Integration, SI):
 
-![ima4](./images/i4.jpg)  
+![ima4](./images/i4.jpeg)  
 
 - SSI (Small SI): < 12 puertas.
 - MSI (Medium SI): 12 - 99 puertas.
