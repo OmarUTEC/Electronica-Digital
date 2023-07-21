@@ -54,3 +54,4 @@ Ejemplos:
 
 ## 2.2 Fenómenos aleatorios en circuitos combinacionales.
 
+cotinuará
