@@ -49,8 +49,39 @@ Ejemplos:
 ![ima5](./images/i5.jpg)  
 
 
+## PROCESO DE DISEÑO 
+
+El proceso de diseño de los circuitos combinacionales consta de las siguientes etapas:
+
+1. A partir de las especificaciones de funcionamiento del circuito, se plantea la tabla de verdad de la función lógica asociada.
+
+2. Se simplifica la función mediante el correspondiente diagrama de Karnaugh, En principio, hay que hallar ambdas expresiones mínimas, la de suma de productos y la de producto de sumas, y quedarse con la que menos términos tenga. A igualdad de términos, se tomará la de menor número de variables por término. Este criterio asegura que el coste del circuito sea el mínimo.
+
+3. El esquema electrónico del circuito combiancional se obtiene al sustituir en la expresi+on lógica mínima cada opraci+on básica (AND, OR y NOT) por el símbolo de la puerta lógica correspondiente. Dicho esquema electrónico recibe el nombre de ***diagrama lógico***.
 
 
+## PROCESO DE ANÁLISIS
+
+Se sustituye en el diagrama lógico cada símbolo de puerta l+ogica por la operación básica correspondiente. Con ello se obtiene la expresi+on lógica asociada al circuito y a partir de ella la tabla de verdad del mismo.
+
+## Ejemplo de diseño
+
+### Especificaciones:
+Diseñar un circuito combinacional que ponga en ella su salida Z sólo cuando dos de sus tres entradas A, B, y C lo estén.
+
+Funcionamiento:
+
+![ima5](./images/i6.jpg)  
+
+De las expresiones, la más sencilla es la de suma de productos, ya que tiene un término menos.
+
+![ima5](./images/i7.jpg)  
+
+## COMBINACIONALES CON PUERTAS NAND
+
+Para implementar un circuito combiancional utilizando ´solo puertas  NAND hay que simplificar la función lógica asociada como suma de porductos, complementar dos veces y aplicar la ley de De Morgan.
+
+![ima5](./images/i8.jpg)  
 
 ## 2.2 Fenómenos aleatorios en circuitos combinacionales.
 
